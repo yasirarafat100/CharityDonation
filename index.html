@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Children's Hope - Transforming Lives Through Education, Health & Relief</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-heart text-danger"></i>
+                <span class="fw-bold">Children's Hope</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Our Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#stories">Stories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-danger rounded-pill px-4 ms-2" href="#donate">Donate Now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content text-white">
+                        <h1 class="display-3 fw-bold mb-4 animate-fade-up">
+                            Transforming Lives, <span class="text-warning">One Child</span> at a Time
+                        </h1>
+                        <p class="lead mb-5 animate-fade-up" style="animation-delay: 0.2s;">
+                            Join us in our mission to provide education, healthcare, and relief to children in need around the world. Together, we can create lasting change.
+                        </p>
+                        <div class="hero-buttons animate-fade-up" style="animation-delay: 0.4s;">
+                            <a href="#donate" class="btn btn-warning btn-lg rounded-pill px-5 me-3 mb-3">
+                                <i class="fas fa-heart me-2"></i>Donate Now
+                            </a>
+                            <a href="#about" class="btn btn-outline-light btn-lg rounded-pill px-5 mb-3">
+                                <i class="fas fa-play me-2"></i>Learn More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image animate-fade-up" style="animation-delay: 0.6s;">
+                        <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
+                             alt="Children learning together" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Stats Section -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="stats-container bg-white rounded-4 shadow-lg p-4 mb-5">
+                        <div class="row text-center">
+                            <div class="col-md-3 col-6 mb-3">
+                                <div class="stat-item">
+                                    <h3 class="display-4 fw-bold text-danger mb-0 counter">50000</h3>
+                                    <p class="text-muted mb-0">Children Helped</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 mb-3">
+                                <div class="stat-item">
+                                    <h3 class="display-4 fw-bold text-warning mb-0 counter">25</h3>
+                                    <p class="text-muted mb-0">Countries</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 mb-3">
+                                <div class="stat-item">
+                                    <h3 class="display-4 fw-bold text-success mb-0 counter">15</h3>
+                                    <p class="text-muted mb-0">Years of Impact</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6 mb-3">
+                                <div class="stat-item">
+                                    <h3 class="display-4 fw-bold text-info mb-0 counter">1000</h3>
+                                    <p class="text-muted mb-0">Volunteers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-4 fw-bold text-dark mb-4">About Children's Hope</h2>
+                    <p class="lead text-muted">Dedicated to creating lasting change in children's lives worldwide through education, healthcare, and emergency relief programs.</p>
+                </div>
+            </div>
+            
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6 mb-4">
+                    <div class="about-image-container">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1022&q=80" 
+                             alt="Children in classroom" class="img-fluid rounded-4 shadow">
+                        <div class="image-overlay">
+                            <div class="overlay-content text-white text-center">
+                                <h4 class="fw-bold">Education First</h4>
+                                <p class="mb-0">Building brighter futures through learning</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <h3 class="h2 fw-bold text-dark mb-4">Our Mission</h3>
+                        <p class="text-muted mb-4">
+                            Founded in 2009, Children's Hope has been at the forefront of providing essential services to underprivileged children globally. We believe every child deserves access to quality education, healthcare, and basic necessities regardless of their circumstances.
+                        </p>
+                        <div class="row">
+                            <div class="col-sm-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="icon-box bg-danger text-white rounded-circle me-3">
+                                        <i class="fas fa-graduation-cap"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold mb-1">Education</h6>
+                                        <small class="text-muted">Quality learning for all</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-3">
+                                <div class="d-flex align-items-center">
+                                    <div class="icon-box bg-success text-white rounded-circle me-3">
+                                        <i class="fas fa-heartbeat"></i>
+                                    </div>
+                                    <div>
+                                        <h6 class="fw-bold mb-1">Healthcare</h6>
+                                        <small class="text-muted">Medical care & nutrition</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-lg-2 mb-4">
+                    <div class="about-image-container">
+                        <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
+                             alt="Medical care" class="img-fluid rounded-4 shadow">
+                        <div class="image-overlay">
+                            <div class="overlay-content text-white text-center">
+                                <h4 class="fw-bold">Healthcare Access</h4>
+                                <p class="mb-0">Ensuring healthy childhoods</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="about-content">
+                        <h3 class="h2 fw-bold text-dark mb-4">Transparency & Impact</h3>
+                        <p class="text-muted mb-4">
+                            We maintain complete transparency in our operations. 85% of every donation goes directly to our programs, with only 15% allocated to administrative costs. Our annual reports are publicly available, and we provide regular updates on how your contributions make a difference.
+                        </p>
+                        <div class="progress-item mb-3">
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="fw-semibold">Program Funding</span>
+                                <span class="text-muted">85%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-success" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="d-flex justify-content-between mb-2">
+                                <span class="fw-semibold">Administrative Costs</span>
+                                <span class="text-muted">15%</span>
+                            </div>
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-warning" style="width: 15%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Work Section -->
+    <section id="work" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-4 fw-bold text-dark mb-4">Our Work</h2>
+                    <p class="lead text-muted">Three pillars of impact: Education, Health, and Relief programs that transform communities</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card card border-0 shadow-lg h-100">
+                        <div class="card-img-top position-relative">
+                            <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
+                                 alt="Education programs" class="img-fluid">
+                            <div class="card-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold text-danger mb-3">Education</h4>
+                            <p class="card-text text-muted mb-4">
+                                Building schools, training teachers, and providing educational materials to ensure every child has access to quality learning opportunities.
+                            </p>
+                            <div class="impact-stats">
+                                <div class="row text-center">
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-danger mb-0">150</h6>
+                                        <small class="text-muted">Schools Built</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-danger mb-0">2K</h6>
+                                        <small class="text-muted">Teachers</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-danger mb-0">30K</h6>
+                                        <small class="text-muted">Students</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="work-card card border-0 shadow-lg h-100">
+                        <div class="card-img-top position-relative">
+                            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
+                                 alt="Healthcare programs" class="img-fluid">
+                            <div class="card-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-heartbeat"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold text-success mb-3">Health</h4>
+                            <p class="card-text text-muted mb-4">
+                                Providing medical care, nutrition programs, and health education to improve children's overall well-being and development.
+                            </p>
+                            <div class="impact-stats">
+                                <div class="row text-center">
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-success mb-0">50</h6>
+                                        <small class="text-muted">Clinics</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-success mb-0">100K</h6>
+                                        <small class="text-muted">Treatments</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-success mb-0">25K</h6>
+                                        <small class="text-muted">Vaccinated</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="work-card card border-0 shadow-lg h-100">
+                        <div class="card-img-top position-relative">
+                            <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
+                                 alt="Relief programs" class="img-fluid">
+                            <div class="card-overlay">
+                                <div class="overlay-icon">
+                                    <i class="fas fa-utensils"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h4 class="card-title fw-bold text-warning mb-3">Relief</h4>
+                            <p class="card-text text-muted mb-4">
+                                Emergency response and long-term solutions to combat hunger and provide essential supplies during crises.
+                            </p>
+                            <div class="impact-stats">
+                                <div class="row text-center">
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-warning mb-0">1M</h6>
+                                        <small class="text-muted">Meals</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-warning mb-0">500</h6>
+                                        <small class="text-muted">Responses</small>
+                                    </div>
+                                    <div class="col-4">
+                                        <h6 class="fw-bold text-warning mb-0">15K</h6>
+                                        <small class="text-muted">Families</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stories Section -->
+    <section id="stories" class="py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-4 fw-bold text-dark mb-4">Stories of Hope</h2>
+                    <p class="lead text-muted">Real stories from the children and families whose lives have been transformed</p>
+                </div>
+            </div>
+            
+            <div id="storiesCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 mb-4">
+                                <div class="story-image">
+                                    <img src="https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
+                                         alt="Maria's story" class="img-fluid rounded-4 shadow">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="story-content">
+                                    <div class="story-header mb-4">
+                                        <span class="badge bg-danger rounded-pill mb-2">Education Impact</span>
+                                        <h3 class="h2 fw-bold text-dark">Maria's Journey to Literacy</h3>
+                                        <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-2"></i>Guatemala</p>
+                                    </div>
+                                    <blockquote class="blockquote">
+                                        <p class="mb-4 text-muted fst-italic">
+                                            "Thanks to Children's Hope, I can now read and write. I dream of becoming a teacher to help other children like me. The school they built in our village changed everything for my family and community."
+                                        </p>
+                                    </blockquote>
+                                    <div class="story-stats">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <small class="text-muted">Age when helped:</small>
+                                                <div class="fw-bold">8 years old</div>
+                                            </div>
+                                            <div class="col-6">
+                                                <small class="text-muted">Now:</small>
+                                                <div class="fw-bold">Top of her class</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 mb-4">
+                                <div class="story-image">
+                                    <img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
+                                         alt="Ahmed's story" class="img-fluid rounded-4 shadow">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="story-content">
+                                    <div class="story-header mb-4">
+                                        <span class="badge bg-success rounded-pill mb-2">Health Impact</span>
+                                        <h3 class="h2 fw-bold text-dark">Ahmed's Recovery</h3>
+                                        <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-2"></i>Bangladesh</p>
+                                    </div>
+                                    <blockquote class="blockquote">
+                                        <p class="mb-4 text-muted fst-italic">
+                                            "When I was sick with malaria, the mobile clinic came to our village. The doctors saved my life. Now I'm healthy and back in school, playing with my friends every day and dreaming of becoming a doctor."
+                                        </p>
+                                    </blockquote>
+                                    <div class="story-stats">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <small class="text-muted">Treatment received:</small>
+                                                <div class="fw-bold">2019</div>
+                                            </div>
+                                            <div class="col-6">
+                                                <small class="text-muted">Health status:</small>
+                                                <div class="fw-bold">Fully recovered</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 mb-4">
+                                <div class="story-image">
+                                    <img src="https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" 
+                                         alt="Sarah's story" class="img-fluid rounded-4 shadow">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="story-content">
+                                    <div class="story-header mb-4">
+                                        <span class="badge bg-warning rounded-pill mb-2">Relief Impact</span>
+                                        <h3 class="h2 fw-bold text-dark">Sarah's Family Farm</h3>
+                                        <p class="text-muted mb-0"><i class="fas fa-map-marker-alt me-2"></i>Kenya</p>
+                                    </div>
+                                    <blockquote class="blockquote">
+                                        <p class="mb-4 text-muted fst-italic">
+                                            "During the drought, we had no food for months. Children's Hope provided meals and helped us start a small farm. Now we can feed our family and even help our neighbors in need."
+                                        </p>
+                                    </blockquote>
+                                    <div class="story-stats">
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <small class="text-muted">Family size:</small>
+                                                <div class="fw-bold">7 members</div>
+                                            </div>
+                                            <div class="col-6">
+                                                <small class="text-muted">Farm status:</small>
+                                                <div class="fw-bold">Self-sufficient</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#storiesCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#storiesCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#storiesCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#storiesCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#storiesCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="display-4 fw-bold text-dark mb-4">Our Team</h2>
+                    <p class="lead text-muted">Meet the dedicated professionals working tirelessly to create positive change</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card card border-0 shadow-lg text-center">
+                        <div class="card-body p-4">
+                            <div class="team-image mb-3">
+                                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" 
+                                     alt="Dr. Sarah Johnson" class="rounded-circle img-fluid">
+                            </div>
+                            <h5 class="card-title fw-bold">Dr. Sarah Johnson</h5>
+                            <p class="text-muted mb-3">Executive Director</p>
+                            <p class="card-text small text-muted mb-3">
+                                15+ years in international development and child welfare programs.
+                            </p>
+                            <div class="social-links">
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-circle me-2">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-info btn-sm rounded-circle">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card card border-0 shadow-lg text-center">
+                        <div class="card-body p-4">
+                            <div class="team-image mb-3">
+                                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" 
+                                     alt="Michael Chen" class="rounded-circle img-fluid">
+                            </div>
+                            <h5 class="card-title fw-bold">Michael Chen</h5>
+                            <p class="text-muted mb-3">Program Director</p>
+                            <p class="card-text small text-muted mb-3">
+                                Specialist in education programs and community development initiatives.
+                            </p>
+                            <div class="social-links">
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-circle me-2">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-info btn-sm rounded-circle">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card card border-0 shadow-lg text-center">
+                        <div class="card-body p-4">
+                            <div class="team-image mb-3">
+                                <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" 
+                                     alt="Dr. Amara Okafor" class="rounded-circle img-fluid">
+                            </div>
+                            <h5 class="card-title fw-bold">Dr. Amara Okafor</h5>
+                            <p class="text-muted mb-3">Health Director</p>
+                            <p class="card-text small text-muted mb-3">
+                                Pediatrician with expertise in global health and nutrition programs.
+                            </p>
+                            <div class="social-links">
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-circle me-2">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-info btn-sm rounded-circle">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="team-card card border-0 shadow-lg text-center">
+                        <div class="card-body p-4">
+                            <div class="team-image mb-3">
+                                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" 
+                                     alt="Elena Rodriguez" class="rounded-circle img-fluid">
+                            </div>
+                            <h5 class="card-title fw-bold">Elena Rodriguez</h5>
+                            <p class="text-muted mb-3">Operations Manager</p>
+                            <p class="card-text small text-muted mb-3">
+                                Expert in logistics and emergency response coordination worldwide.
+                            </p>
+                            <div class="social-links">
+                                <a href="#" class="btn btn-outline-primary btn-sm rounded-circle me-2">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="btn btn-outline-info btn-sm rounded-circle">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donate Section -->
+    <section id="donate" class="py-5 bg-gradient-primary">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-8 mx-auto text-center text-white">
+                    <h2 class="display-4 fw-bold mb-4">Make a Difference Today</h2>
+                    <p class="lead">Your donation directly impacts children's lives and creates lasting change in communities worldwide</p>
+                </div>
+            </div>
+            
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="donation-impact bg-white bg-opacity-10 backdrop-blur rounded-4 p-4 text-white">
+                        <h3 class="h2 fw-bold mb-4">Your Impact</h3>
+                        <div class="impact-items">
+                            <div class="impact-item d-flex align-items-center mb-4 p-3 bg-white bg-opacity-10 rounded-3">
+                                <div class="impact-amount me-4">
+                                    <span class="display-6 fw-bold text-warning">$25</span>
+                                </div>
+                                <div class="impact-description">
+                                    <h6 class="fw-bold mb-1">School Supplies</h6>
+                                    <p class="mb-0 small">Provides school supplies for one child for a month</p>
+                                </div>
+                            </div>
+                            
+                            <div class="impact-item d-flex align-items-center mb-4 p-3 bg-white bg-opacity-10 rounded-3">
+                                <div class="impact-amount me-4">
+                                    <span class="display-6 fw-bold text-warning">$50</span>
+                                </div>
+                                <div class="impact-description">
+                                    <h6 class="fw-bold mb-1">Medical Treatment</h6>
+                                    <p class="mb-0 small">Covers medical treatment for one child</p>
+                                </div>
+                            </div>
+                            
+                            <div class="impact-item d-flex align-items-center mb-4 p-3 bg-white bg-opacity-10 rounded-3">
+                                <div class="impact-amount me-4">
+                                    <span class="display-6 fw-bold text-warning">$100</span>
+                                </div>
+                                <div class="impact-description">
+                                    <h6 class="fw-bold mb-1">Family Nutrition</h6>
+                                    <p class="mb-0 small">Feeds a family of five for two weeks</p>
+                                </div>
+                            </div>
+                            
+                            <div class="impact-item d-flex align-items-center p-3 bg-white bg-opacity-10 rounded-3">
+                                <div class="impact-amount me-4">
+                                    <span class="display-6 fw-bold text-warning">$250</span>
+                                </div>
+                                <div class="impact-description">
+                                    <h6 class="fw-bold mb-1">Education Sponsorship</h6>
+                                    <p class="mb-0 small">Sponsors one child's education for a full year</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6">
+                    <div class="donation-form bg-white rounded-4 shadow-lg p-4">
+                        <h3 class="h2 fw-bold text-dark mb-4">Choose Your Donation</h3>
+                        
+                        <form id="donationForm">
+                            <div class="amount-selection mb-4">
+                                <div class="row g-2">
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-outline-danger w-100 amount-btn" data-amount="25">
+                                            $25
+                                        </button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-outline-danger w-100 amount-btn" data-amount="50">
+                                            $50
+                                        </button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-outline-danger w-100 amount-btn" data-amount="100">
+                                            $100
+                                        </button>
+                                    </div>
+                                    <div class="col-6">
+                                        <button type="button" class="btn btn-outline-danger w-100 amount-btn" data-amount="250">
+                                            $250
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="customAmount" class="form-label fw-semibold">Custom Amount</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">$</span>
+                                    <input type="number" class="form-control" id="customAmount" placeholder="Enter amount" min="1">
+                                </div>
+                            </div>
+                            
+                            <div class="mb-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="donationType" id="oneTime" value="one-time" checked>
+                                    <label class="form-check-label fw-semibold" for="oneTime">
+                                        One-time donation
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="donationType" id="monthly" value="monthly">
+                                    <label class="form-check-label fw-semibold" for="monthly">
+                                        Monthly donation
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div class="row g-3 mb-4">
+                                <div class="col-12">
+                                    <input type="text" class="form-control" placeholder="Full Name" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" class="form-control" placeholder="Email Address" required>
+                                </div>
+                                <div class="col-12">
+                                    <input type="tel" class="form-control" placeholder="Phone Number">
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-danger btn-lg w-100 rounded-pill mb-3">
+                                <i class="fas fa-heart me-2"></i>Donate Securely
+                            </button>
+                            
+                            <div class="text-center">
+                                <small class="text-muted">
+                                    <i class="fas fa-lock me-1"></i>
+                                    Your donation is secure and encrypted
+                                </small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="footer-brand mb-4">
+                        <h4 class="fw-bold">
+                            <i class="fas fa-heart text-danger me-2"></i>
+                            Children's Hope
+                        </h4>
+                        <p class="text-muted">
+                            Transforming lives through education, health, and relief programs worldwide. Together, we can create lasting change for children in need.
+                        </p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle me-2">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-outline-light btn-sm rounded-circle">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold mb-3">Quick Links</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#about" class="text-muted text-decoration-none">About Us</a></li>
+                        <li class="mb-2"><a href="#work" class="text-muted text-decoration-none">Our Work</a></li>
+                        <li class="mb-2"><a href="#stories" class="text-muted text-decoration-none">Stories</a></li>
+                        <li class="mb-2"><a href="#team" class="text-muted text-decoration-none">Team</a></li>
+                        <li class="mb-2"><a href="#donate" class="text-muted text-decoration-none">Donate</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <h6 class="fw-bold mb-3">Contact Info</h6>
+                    <div class="contact-info">
+                        <p class="text-muted mb-2">
+                            <i class="fas fa-envelope me-2"></i>
+                            info@childrenshope.org
+                        </p>
+                        <p class="text-muted mb-2">
+                            <i class="fas fa-phone me-2"></i>
+                            +1 (555) 123-4567
+                        </p>
+                        <p class="text-muted mb-2">
+                            <i class="fas fa-map-marker-alt me-2"></i>
+                            123 Hope Street, NY 10001
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3">
+                    <h6 class="fw-bold mb-3">Newsletter</h6>
+                    <p class="text-muted mb-3">Stay updated with our latest news and impact stories.</p>
+                    <form class="newsletter-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Your email" required>
+                            <button class="btn btn-danger" type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">
+                        &copy; 2024 Children's Hope. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="#" class="text-muted text-decoration-none me-3">Privacy Policy</a>
+                    <a href="#" class="text-muted text-decoration-none">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
